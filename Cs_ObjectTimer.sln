@@ -1,0 +1,68 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cs.ObjectTimer.UI", "Cs.ObjectTimer\Cs.ObjectTimer.UI.csproj", "{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cs.ObjectTimer.Exceptions", "Cs.ObjectTimer.Exceptions\Cs.ObjectTimer.Exceptions.csproj", "{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cs.ObjectTimer.StopWatch", "Cs.ObjectTimer.StopWatch\Cs.ObjectTimer.StopWatch.csproj", "{9786BF44-FB32-4707-BD67-C5D71D8A29E0}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://shawnnovak.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Cs.ObjectTimer\\Cs.ObjectTimer.UI.csproj
+		SccProjectName1 = Cs.ObjectTimer
+		SccLocalPath1 = Cs.ObjectTimer
+		SccProjectUniqueName2 = Cs.ObjectTimer.Exceptions\\Cs.ObjectTimer.Exceptions.csproj
+		SccProjectName2 = Cs.ObjectTimer.Exceptions
+		SccLocalPath2 = Cs.ObjectTimer.Exceptions
+		SccProjectUniqueName3 = Cs.ObjectTimer.StopWatch\\Cs.ObjectTimer.StopWatch.csproj
+		SccProjectName3 = Cs.ObjectTimer.StopWatch
+		SccLocalPath3 = Cs.ObjectTimer.StopWatch
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Debug|x86.ActiveCfg = Debug|x86
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Debug|x86.Build.0 = Debug|x86
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Release|Any CPU.ActiveCfg = Release|x86
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Release|x86.ActiveCfg = Release|x86
+		{8F4F9284-88F5-4B7F-B1F4-E7CC1C9CA071}.Release|x86.Build.0 = Release|x86
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6566E8DF-3C93-4BB2-B1A2-3BDAF9C6113B}.Release|x86.ActiveCfg = Release|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9786BF44-FB32-4707-BD67-C5D71D8A29E0}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
