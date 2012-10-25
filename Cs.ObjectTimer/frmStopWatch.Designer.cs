@@ -38,8 +38,6 @@
             this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuQuit = new System.Windows.Forms.ToolStripMenuItem();
             this.EditToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuSplit = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuClear = new System.Windows.Forms.ToolStripMenuItem();
             this.HelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAbout = new System.Windows.Forms.ToolStripMenuItem();
@@ -102,15 +100,17 @@
             // 
             this.mnuStart.Name = "mnuStart";
             this.mnuStart.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.mnuStart.Size = new System.Drawing.Size(140, 22);
+            this.mnuStart.Size = new System.Drawing.Size(152, 22);
             this.mnuStart.Text = "Start";
+            this.mnuStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // mnuStop
             // 
             this.mnuStop.Name = "mnuStop";
             this.mnuStop.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.mnuStop.Size = new System.Drawing.Size(140, 22);
+            this.mnuStop.Size = new System.Drawing.Size(152, 22);
             this.mnuStop.Text = "Stop";
+            this.mnuStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // ToolStripSeparator1
             // 
@@ -121,37 +121,25 @@
             // 
             this.mnuQuit.Name = "mnuQuit";
             this.mnuQuit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.mnuQuit.Size = new System.Drawing.Size(140, 22);
+            this.mnuQuit.Size = new System.Drawing.Size(152, 22);
             this.mnuQuit.Text = "Quit";
+            this.mnuQuit.Click += new System.EventHandler(this.mnuQuit_Click);
             // 
             // EditToolStripMenuItem
             // 
             this.EditToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuSplit,
-            this.ToolStripSeparator2,
             this.mnuClear});
             this.EditToolStripMenuItem.Name = "EditToolStripMenuItem";
             this.EditToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.EditToolStripMenuItem.Text = "Edit";
             // 
-            // mnuSplit
-            // 
-            this.mnuSplit.Name = "mnuSplit";
-            this.mnuSplit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.mnuSplit.Size = new System.Drawing.Size(143, 22);
-            this.mnuSplit.Text = "Split";
-            // 
-            // ToolStripSeparator2
-            // 
-            this.ToolStripSeparator2.Name = "ToolStripSeparator2";
-            this.ToolStripSeparator2.Size = new System.Drawing.Size(140, 6);
-            // 
             // mnuClear
             // 
             this.mnuClear.Name = "mnuClear";
             this.mnuClear.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.mnuClear.Size = new System.Drawing.Size(143, 22);
+            this.mnuClear.Size = new System.Drawing.Size(152, 22);
             this.mnuClear.Text = "Clear";
+            this.mnuClear.Click += new System.EventHandler(this.mnuClear_Click);
             // 
             // HelpToolStripMenuItem
             // 
@@ -165,8 +153,9 @@
             // 
             this.mnuAbout.Name = "mnuAbout";
             this.mnuAbout.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.mnuAbout.Size = new System.Drawing.Size(126, 22);
+            this.mnuAbout.Size = new System.Drawing.Size(152, 22);
             this.mnuAbout.Text = "About";
+            this.mnuAbout.Click += new System.EventHandler(this.mnuAbout_Click);
             // 
             // lblTimer
             // 
@@ -216,6 +205,7 @@
             this.MaximizeBox = false;
             this.Name = "frmStopWatch";
             this.Text = "Stop Watch";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmStopWatch_FormClosing);
             this.Load += new System.EventHandler(this.frmStopWatch_Load);
             this.StatusStrip1.ResumeLayout(false);
             this.StatusStrip1.PerformLayout();
@@ -238,8 +228,6 @@
         internal System.Windows.Forms.ToolStripSeparator ToolStripSeparator1;
         internal System.Windows.Forms.ToolStripMenuItem mnuQuit;
         internal System.Windows.Forms.ToolStripMenuItem EditToolStripMenuItem;
-        internal System.Windows.Forms.ToolStripMenuItem mnuSplit;
-        internal System.Windows.Forms.ToolStripSeparator ToolStripSeparator2;
         internal System.Windows.Forms.ToolStripMenuItem mnuClear;
         internal System.Windows.Forms.ToolStripMenuItem HelpToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem mnuAbout;

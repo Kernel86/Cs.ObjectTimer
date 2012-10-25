@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*************************
+ * [StopException.cs]
+ * C# Intermediate
+ * Shawn Novak
+ * 2012-10-24
+ *************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

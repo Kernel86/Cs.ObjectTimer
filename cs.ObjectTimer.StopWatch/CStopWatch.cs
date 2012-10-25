@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*************************
+ * [CStopWatch.cs]
+ * C# Intermediate
+ * Shawn Novak
+ * 2012-10-24
+ *************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,6 +48,7 @@ namespace Cs.ObjectTimer.StopWatch
 
     // Private Methods
         #region "Private Methods"
+        // Convert seconds into a formatted string
         private string SecondsToString(int seconds)
         {
             return (seconds / 3600).ToString("D2") + ":" + (seconds / 60 % 60).ToString("D2") + ":" + (seconds % 60).ToString("D2");
@@ -51,6 +59,7 @@ namespace Cs.ObjectTimer.StopWatch
         #region "Public Methods"
         public void StartClock()
         {
+            // Throw StartException if running or start and store Now
             if (_bActive)
                 throw new StartException();
             else
@@ -62,6 +71,7 @@ namespace Cs.ObjectTimer.StopWatch
 
         public void StopClock()
         {
+            // Throw StopException if not running or stop and store Now
             if (!_bActive)
                 throw new StopException();
             else
